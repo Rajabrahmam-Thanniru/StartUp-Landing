@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup Landing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        darkBlue: '#0F2137',
+                        darkGreen: '#0A8080',
+                        liteBlack:'#343D48',
+                        liteBlackE:'#7E8896',
+                        darkBrown:'#A17857',
+                        liteBlue:'#7589A1',
+                        liteBrown:'#FBF5F1',
+                    },
+                    fontSize: {
+                        heading: '200px'
+                    },
+                    fontFamily: {
+                        sans: ['DM Sans', 'sans-serif']
+                    }
+                }
+            }
+        };
+    </script>    
+</head>
+<body class="bg-white">
+    <header class="w-screen bg-white py-4">
+        <div class="container mx-auto flex items-center justify-between px-6 lg:px-20">
+            <!-- Logo + Title -->
+            <div class="flex items-center">
+                <img src="Images/Logo.png" class="w-9 h-10" alt="Startup Landing">
+                <h1 class="text-lg font-bold text-darkBlue ml-3">StartupLanding</h1>
+            </div>
+    
+            <!-- Navigation Links -->
+            <nav class="hidden md:flex items-center space-x-7">
+                <h1 class="text-lg font-normal text-darkBlue cursor-pointer">Home</h1>
+                <div class="flex items-center cursor-pointer">
+                    <h1 class="text-lg font-normal text-darkBlue">Advertise</h1>
+                    <i class="fas fa-caret-down ml-1 text-[1.2em] text-darkBlue"></i>
+                </div>
+                <div class="flex items-center cursor-pointer">
+                    <a href="support.html" class="flex items-center text-darkBlue">
+                        <h1 class="text-lg font-normal">Support</h1>
+                        <i class="fas fa-caret-down ml-1 text-[1.2em]"></i>
+                    </a>
+                </div>
+                <h1 class="text-lg font-normal text-darkBlue cursor-pointer">About</h1>
+            </nav>
+    
+            <!-- Login + Get Started -->
+            <div class="flex items-center space-x-5">
+                <h1 class="text-lg font-normal text-darkBlue cursor-pointer">Login</h1>
+                <div class="text-center cursor-pointer">
+                    <h1 class="text-lg font-bold text-darkGreen">Get Started</h1>
+                    <img src="Images/underLIne.png" class="w-[7rem] mx-auto">
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    
+    <div class="text-center mt-[7rem]">
+        <h1 class="text-darkBlue font-bold text-5xl  leading-tight">
+            Creativity starts with viewing the
+            <span class="block mt-3">whole world differently</span>
+        </h1>
+        <p class="text-darkBlue mt-5 text-lg">
+            A service agency with customer satisfaction
+        </p>
+    </div>    
+    <div class="relative mt-5">
+        <img src="Images/bg1.png" class="w-full">
+        <button class="absolute top-5 left-1/2 transform -translate-x-1/2 bg-darkGreen text-white font-bold py-4 px-8 text-xl rounded-lg shadow-lg">
+            Get Started
+        </button>        
+    </div>
+    <div class="text-center mt-[20vh]">
+        <h1 class="text-darkBlue font-bold text-4xl leading-tight">
+            Grow your startup with our Service
+        </h1>
+        <p class="text-darkBlue mt-5 text-lg">
+            Build an incredible workplace and grow your business with Gusto’s 
+            <span class="block mt-3">all-in-one platform with amazing contents.</span>
+        </p>
+    </div>  
+    <div class="flex flex-nowrap justify-center gap-x-16 mt-[7rem] px-6 overflow-x-auto">
+        <div class="flex flex-row gap-x-6 min-w-[18rem] flex-1 "> <!-- Added ml-8 -->
+            <img src="Images/marketingLogo.png" class="w-[5.5rem] h-[5.5rem]">
+            <div>
+                <h1 class="text-darkBlue font-bold text-lg">Marketing & Advertising</h1>
+                <p class="text-justify leading-loose text-liteBlack text-base mt-2">
+                    Get your info tests delivered at 
+                    <span class="block mt-1">home. Collect a sample from the</span>
+                    <span class="block mt-1">your progress tests.</span>
+                </p>
+            </div>
+        </div>
+        
+        <div class="flex flex-row gap-x-6 min-w-[18rem] flex-1">
+            <img src="Images/developmentLogo.png" class="w-[5.5rem] h-[5.5rem]">
+            <div>
+                <h1 class="text-darkBlue font-bold text-lg">Development & Engineering</h1>
+                <p class="text-justify leading-loose text-liteBlack text-base mt-2">
+                    Get your info tests delivered at 
+                    <span class="block mt-1">home. Collect a sample from the</span>
+                    <span class="block mt-1">your progress tests.</span>
+                </p>
+            </div>
+        </div>
+    
+        <div class="flex flex-row gap-x-6 min-w-[18rem] flex-1">
+            <img src="Images/business.png" class="w-[5.5rem] h-[5.5rem]">
+            <div>
+                <h1 class="text-darkBlue font-bold text-lg">Business & Strategy</h1>
+                <p class="text-justify leading-loose text-liteBlack text-base mt-2">
+                    Get your info tests delivered at 
+                    <span class="block mt-1">home. Collect a sample from the</span>
+                    <span class="block mt-1">your progress tests.</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="relative mt-3 ml-5">
+        <img src="Images/quote.png" class="absolute left-[20%] top-0 w-[9rem] h[8rem]">
+        <p class="ml-[28%] leading-loose text-liteBlack mt-[10rem] pt-3 text-darkBlue font-normal text-2xl">
+            “Whatever we create in Qwilr looks absolutely brilliant. It helps show
+            <span class="block mt-1">our work in the best light, and is downright impressive when clients see</span>
+            <span class="block mt-1">a Qwilr Page we have made for them.”</span>  
+        </p>
+        <p class="text-justify ml-[26.5rem] leading-loose text-liteBlackE text-base mt-2">By Denny Albuz, Adviser of Paypal 
+        </p>
+    </div>
+    <div class="flex flex-row">
+        <div class="w-[31rem] border-t-2 border-grey-400 my-4 ml-[8rem]"></div>
+        <div class="w-[13rem] border-t-4 border-darkBrown my-4"></div>
+        <div class="w-[30rem] border-t-2 border-grey-400 my-4"></div>
+    </div>
+    <div class="flex flex-row gap-x-7 mb-7 mt-7">
+        <img src="Images/uber.png" class="w-[6.8rem] h-[2rem] ml-[10rem]">
+        <img src="Images/googleLogo.png" class="w-[7.3rem] h-[2.8rem] ml-[7rem]">
+        <img src="Images/paypalLogo.png" class="w-[7.7rem] h-[3.5rem] ml-[7rem]">
+        <img src="Images/microsoftLogo.png" class="w-[7.6rem] h-[3rem] ml-[7rem]">
+        <img src="Images/dribbleLogo.png" class="w-[6.5rem] h-[2rem] ml-[7rem]">
+    </div>
+    <div class="text-center mt-[20vh]">
+        <h1 class="text-darkBlue font-bold text-4xl leading-tight">
+            Meet our superheros
+        </h1>
+        <p class="text-darkBlue mt-5 text-lg">
+            Build an incredible workplace and grow your business with Gusto’s 
+            <span class="block mt-3">all-in-one platform with amazing contents.</span>
+        </p>
+    </div> 
+    <div class="flex flex-row gap-x-7 justify-start mt-[5rem]">
+        <div class="ml-[5rem]">
+            <img src="Images/p1.png" class="w-[23.75rem] h-[26.25rem]">
+            <h1 class="text-darkBlue text-[2rem]">Emmalee Mclain</h1>
+            <h1 class="text-liteBlue">Product Designer</h1>
+            <div class="flex space-x-4">
+                <i class="fab fa-twitter text-blue-500  text-2xl"></i>
+                <i class="fab fa-github text-black text-2xl"></i>
+                <img src="Images/dribble_icon.png" class="w-6 h-6 mt-1">              
+            </div>            
+        </div>
+        <div class="ml-[5rem]">
+            <img src="Images/p2.png" class="w-[23.75rem] h-[26.25rem]">
+            <h1 class="text-darkBlue text-[2rem]">Daisy Morgan</h1>
+            <h1 class="text-liteBlue">Lead developer</h1>
+            <div class="flex space-x-4">
+                <i class="fab fa-twitter text-blue-500  text-2xl"></i>
+                <img src="Images/dribble_icon.png" class="w-6 h-6 mt-1">              
+            </div>            
+        </div>
+        <div class="ml-[5rem]">
+            <img src="Images/p3.png" class="w-[23.75rem] h-[26.25rem]">
+            <h1 class="text-darkBlue text-[2rem]">Ariyanna Hicks</h1>
+            <h1 class="text-liteBlue">Experience Designer</h1>
+            <div class="flex space-x-4">
+                <i class="fab fa-twitter text-blue-500  text-2xl"></i>
+                <i class="fab fa-github text-black text-2xl"></i>             
+            </div>            
+        </div>
+    </div>
+    <div class="text-center mt-[20vh]">
+        <h1 class="text-darkBlue font-bold text-4xl leading-tight">
+            Other sevices you must appreciate
+        </h1>
+        <p class="text-darkBlue mt-5 text-lg">
+            Focus only on the meaning, we take care of the design. As soon as the
+            <span class="block mt-3">meeting end you can export in one click into your preferred.</span>
+        </p>
+    </div>
+    <div class="relative">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-10 p-2 mt-16">
+            <!-- 3D Modeling & Art Block (Added ml-8) -->
+            <div class="flex flex-row gap-x-6 "> 
+                <img src="Images/3dM.png" class="w-[5.5rem] h-[5.5rem]">
+                <div>
+                    <h1 class="text-darkBlue font-bold text-lg">3D modeling & art</h1>
+                    <p class="text-justify mr-[3rem] leading-loose text-liteBlack text-base mt-2">
+                        Get your info tests delivered at 
+                        <span class="block mt-1">home. Collect a sample from </span>
+                        <span class="block mt-1">your progress tests.</span>
+                    </p>
+                    <div class="flex flex-row gap-x-2 mt-4">
+                        <h1 class="text-blue-500 text-base font-normal">Learn More</h1>
+                        <i class="fas fa-chevron-right text-[0.7rem] mt-1.5 text-blue-500"></i>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="flex flex-row gap-x-6">
+                <img src="Images/dp.png" class="w-[5.5rem] h-[5.5rem]">
+                <div>
+                    <h1 class="text-darkBlue font-bold text-lg">Digital promotion</h1>
+                    <p class="text-justify mr-[1rem] leading-loose text-liteBlack text-base mt-2">
+                        Get your info tests delivered at 
+                        <span class="block mt-1">home. Collect a sample from the</span>
+                        <span class="block mt-1">your progress tests.</span>
+                    </p>
+                    <div class="flex flex-row gap-x-2 mt-4">
+                        <h1 class="text-blue-500 text-base font-normal">Learn More</h1>
+                        <i class="fas fa-chevron-right text-[0.7rem] mt-1.5 text-blue-500"></i>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="flex flex-row gap-x-6">
+                <img src="Images/business2.png" class="w-[5.5rem] h-[5.5rem]">
+                <div>
+                    <h1 class="text-darkBlue font-bold text-lg">Business Enterprise</h1>
+                    <p class="text-justify mr-[1rem] leading-loose text-liteBlack text-base mt-2">
+                        Get your info tests delivered at 
+                        <span class="block mt-1">home. Collect a sample from the</span>
+                        <span class="block mt-1">your progress tests.</span>
+                    </p>
+                    <div class="flex flex-row gap-x-2 mt-4">
+                        <h1 class="text-blue-500 text-base font-normal">Learn More</h1>
+                        <i class="fas fa-chevron-right text-[0.7rem] mt-1.5 text-blue-500"></i>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Marketing & Advertising Block (Added ml-8) -->
+            <div class="flex flex-row gap-x-6 ">
+                <img src="Images/marketingLogo.png" class="w-[5.5rem] h-[5.5rem]">
+                <div>
+                    <h1 class="text-darkBlue font-bold text-lg">Marketing & advertising</h1>
+                    <p class="text-justify mr-[1rem] leading-loose text-liteBlack text-base mt-2">
+                        Get your info tests delivered at 
+                        <span class="block mt-1">home. Collect a sample from the</span>
+                        <span class="block mt-1">your progress tests.</span>
+                    </p>
+                    <div class="flex flex-row gap-x-2 mt-4">
+                        <h1 class="text-blue-500 text-base font-normal">Learn More</h1>
+                        <i class="fas fa-chevron-right text-[0.7rem] mt-1.5 text-blue-500"></i>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="flex flex-row gap-x-6">
+                <img src="Images/developmentLogo.png" class="w-[5.5rem] h-[5.5rem]">
+                <div>
+                    <h1 class="text-darkBlue font-bold text-lg">Ultimate development</h1>
+                    <p class="text-justify mr-[1rem] leading-loose text-liteBlack text-base mt-2">
+                        Get your info tests delivered at 
+                        <span class="block mt-1">home. Collect a sample from the</span>
+                        <span class="block mt-1">your progress tests.</span>
+                    </p>
+                    <div class="flex flex-row gap-x-2 mt-4">
+                        <h1 class="text-blue-500 text-base font-normal">Learn More</h1>
+                        <i class="fas fa-chevron-right text-[0.7rem] mt-1.5 text-blue-500"></i>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="flex flex-row gap-x-6">
+                <img src="Images/onlineSupport.png" class="w-[5.5rem] h-[5.5rem]">
+                <div>
+                    <h1 class="text-darkBlue font-bold text-lg">Online support</h1>
+                    <p class="text-justify mr-[1rem] leading-loose text-liteBlack text-base mt-2">
+                        Get your info tests delivered at 
+                        <span class="block mt-1">home. Collect a sample from the</span>
+                        <span class="block mt-1">your progress tests.</span>
+                    </p>
+                    <div class="flex flex-row gap-x-2 mt-4">
+                        <h1 class="text-blue-500 text-base font-normal">Learn More</h1>
+                        <i class="fas fa-chevron-right text-[0.7rem] mt-1.5 text-blue-500"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="flex flex-row gap-x-[10rem] mt-[10rem] ml-[10rem]">
+        <h1 class="text-xl font-bold text-darkBlue">Why you choose our service?</h1>
+        <h1 class="text-xl font-bold text-darkBlue">What’s our business promise?</h1>
+        <h1 class="text-xl font-bold text-darkBlue">What’s our role model plan?</h1>
+    </div>
+    <div class="flex flex-row">
+        <div class="w-[18rem] border-t-4 border-darkBrown my-4 ml-[10rem]"></div>
+        <div class="w-[55rem] border-t-2 border-grey-400 my-4 mt-4.9"></div>
+    </div>
+    <div class="flex flex-row ml-40 mt-[10rem]">
+        <div>
+            <h1 class="text-darkBlue font-bold text-4xl  leading-tight text-center lg:text-left">
+                We will turn your idea in  
+                <span class="block mt-3">the successful business</span>
+                <span class="block mt-3 flex justify-center lg:justify-start items-center">
+                    model framework
+                    <img src="Images/angleEmoji.png" class="w-8 h-9 ml-2">
+                </span>
+            </h1>
+            <p class="text-justify mr-[1rem] leading-loose text-liteBlack text-lg mt-5">Get your tests delivered at let home collect sample from  
+                <span class="block mt-1">the victory of the managments that supplies best design</span>
+                <span class="block mt-1">system guidelines ever.</span>
+            </p>
+            <div class="grid grid-cols-2 grid-rows-2 mt-7 gap-y-7">
+                <div class="flex flex-row gap-x-3">
+                    <i class="fas fa-check-circle text-green-400 text-2xl"></i>
+                    <h1 class="font-medium text-darkBlue text-base mt-1">Medical and vision</h1>
+                </div>
+                <div class="flex flex-row gap-x-3">
+                    <i class="fas fa-check-circle text-green-400 text-2xl"></i>
+                    <h1 class="font-medium text-darkBlue text-base mt-1">HSAs and FSAs</h1>
+                </div>
+                <div class="flex flex-row gap-x-3">
+                    <i class="fas fa-check-circle text-green-400 text-2xl"></i>
+                    <h1 class="font-medium text-darkBlue text-base mt-1">Life insurance</h1>
+                </div>
+                <div class="flex flex-row gap-x-3">
+                    <i class="fas fa-check-circle text-green-400 text-2xl"></i>
+                    <h1 class="font-medium text-darkBlue text-base mt-1">Commuter benefits</h1>
+                </div>
+            </div>
+            <div class="flex flex-row gap-x-2 mt-4">
+                <h1 class="text-blue-500  text-base font-medium">Explore More</h1>
+                <i class="fas fa-chevron-right text-[0.7rem] mt-1.5 text-blue-500"></i>
+            </div>
+        </div>
+        <img src="Images/illustration.png" class="w-[36.31rem] h-[36.69rem]">
+    </div>
+    <div class="text-center mt-[20vh]">
+        <h1 class="text-darkBlue font-bold text-4xl leading-tight">
+            Popular blog post we update everyday
+        </h1>
+        <p class="text-darkBlue mt-5 text-lg">
+            Focus only on the meaning, we take care of the design. As soon as the
+            <span class="block mt-3">meeting end you can export in one click.</span>
+        </p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 mt-10">
+        <!-- First Blog Post -->
+        <div>
+            <img src="Images/blog1.png" class="w-full max-w-[23.4375rem] h-auto">
+            <h1 class="text-darkBlue font-bold text-xl mt-3">
+                How to work with prototype design 
+                <span class="block mt-1">with Adobe XD featuring tools</span>
+            </h1>
+            <p class="text-justify leading-loose text-liteBlack text-base mt-2">
+                The 2019 Innovation by Design Awards  
+                <span class="block mt-1">honor the designers and businesses solving</span>
+                <span class="block mt-1">the problems of today and tomorrow. It is</span>
+                <span class="block mt-1">one of the most sought-after design awards.</span>
+            </p>
+        </div>
+    
+        <!-- Second Blog Post -->
+        <div>
+            <div class="w-full max-w-[23.4375rem] h-[10rem] bg-liteBrown flex items-center px-5">
+                <h1 class="text-darkBlue font-bold text-xl">
+                    Antibias receives honorable gift  
+                    <span class="block mt-1">mention at Fast Company’s most</span>
+                    <span class="block mt-1">Innovation by Design Awards</span>
+                </h1>
+            </div>
+            <img src="Images/blog2.png" class="w-full max-w-[23.4375rem] h-auto mt-7">
+            <h1 class="text-darkBlue font-bold text-xl mt-7">
+                Multiple artboard prototype with Figma
+            </h1>
+            <p class="text-justify leading-loose text-liteBlack text-base mt-2">
+                Beyond launched antibias, a Chrome extension  
+                <span class="block mt-1">that replaces LinkedIn profile photos</span>
+            </p>
+        </div>
+    
+        <!-- Third & Fourth Blog Post with Overlay -->
+        <div>
+            <div class="relative w-full max-w-[23.4375rem] h-[14.375rem]">
+                <img src="Images/blog3.png" class="w-full h-full object-cover">
+                <div class="absolute bottom-4 left-4 text-white text-xl font-bold p-2 bg-black/50">
+                    Multiple task wireframing with team management perform better
+                </div>
+            </div>
+            <div class="relative w-full max-w-[23.4375rem] h-[14.375rem] mt-7">
+                <img src="Images/blog4.png" class="w-full h-full object-cover">
+                <div class="absolute bottom-4 left-4 text-white text-xl font-bold p-2 bg-black/50">
+                    Team presentation with latest user interface & experience reach more
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+        
+    <div class="relative w-full">
+        <img src="Images/bg2.png" class="w-full mt-[5rem] bg-liteBrown" alt="Background">
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white w-[68rem] p-8 rounded-lg shadow-lg">
+           <div class="flex flex-row gap-x-[5rem]">
+            <div>
+                <h1 class="text-darkBlue font-bold text-xl mt-7">Like our service? Subscribe us</h1>
+                <p class="text-justify mr-[1rem] leading-loose text-liteBlack text-base font-normal mt-2">We have more than thousand of creative entrepreneurs 
+                    <span class="block mt-1">and stat joining our business</span>
+                </p>
+            </div>
+           <div>
+            <div class="flex flex-row gap-x-2 mt-8">
+                <input type="email" placeholder="Enter Email address" class="border border-gray-300 p-2 flex-grow rounded-l-md w-[21.875rem] h-[3.75rem] bg-[#EFF3F7]">
+                <button class="bg-pink-500 text-white px-4 py-2 rounded-r-md w-[7rem] h-[3.75rem] text-lg">Subscribe</button>   
+            </div>
+            <label class="flex items-center mt-2 text-sm text-gray-500 ">
+                <input type="checkbox" class="mr-2 bg-[#9095AD]">
+                Don't provide any promotional messages.
+            </label>
+           </div>
+           </div>
+        </div>
+    </div>
+        <footer class="py-10 mt-10">
+            <div class="container mx-auto px-6 md:px-12 lg:px-20">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-x-8 gap-y-6">
+                    <!-- Logo & Copyright -->
+                    <div class="flex flex-col items-center sm:items-start text-center sm:text-left">
+                        <div class="flex flex-wrap items-center space-x-3">
+                            <img src="Images/Logo.png" class="w-9 h-10" alt="Startup Landing">
+                            <h1 class="text-lg font-bold text-darkBlue min-w-0">StartupLanding</h1>
+                        </div>
+                        <p class="text-sm text-darkBlue mt-4">Terms of use | Privacy</p>
+                        <p class="text-sm text-darkBlue mt-1">Copyright by 2019 YourName, Inc</p>
+                    </div>
+        
+                    <!-- About Us -->
+                    <div>
+                        <h1 class="font-medium text-lg text-darkBlue">About Us</h1>
+                        <ul class="mt-4 space-y-2 text-sm text-darkBlue">
+                            <li>Support Center</li>
+                            <li>Customer Support</li>
+                            <li>About Us</li>
+                            <li>Copyright</li>
+                        </ul>
+                    </div>
+        
+                    <!-- Our Information -->
+                    <div>
+                        <h1 class="font-medium text-lg text-darkBlue">Our Information</h1>
+                        <ul class="mt-4 space-y-2 text-sm text-darkBlue">
+                            <li>Return Policy</li>
+                            <li>Privacy Policy</li>
+                            <li>Terms & Conditions</li>
+                            <li>Site Map</li>
+                        </ul>
+                    </div>
+        
+                    <div>
+                        <h1 class="font-medium text-lg text-darkBlue">My Account</h1>
+                        <ul class="mt-4 space-y-2 text-sm text-darkBlue">
+                            <li>Press Inquiries</li>
+                            <li>Social Media</li>
+                            <li>Directories</li>
+                            <li>Images & B-roll</li>
+                        </ul>
+                    </div>
+        
+                    <div>
+                        <h1 class="font-medium text-lg text-darkBlue">Connect</h1>
+                        <div class="flex items-center space-x-3 mt-4">
+                            <i class="fab fa-facebook text-blue-500 text-sm"></i>
+                            <span class="text-sm text-darkBlue">Facebook</span>
+                        </div>
+                        <div class="flex items-center space-x-3 mt-2">
+                            <i class="fab fa-twitter text-blue-500 text-sm"></i>
+                            <span class="text-sm text-darkBlue">Twitter</span>
+                        </div>
+                        <div class="flex items-center space-x-3 mt-2">
+                            <i class="fab fa-github text-black text-sm"></i>
+                            <span class="text-sm text-darkBlue">GitHub</span>
+                        </div>
+                        <div class="flex items-center space-x-3 mt-2">
+                            <img src="Images/dribble_icon.png" class="w-4 h-4">
+                            <span class="text-sm text-darkBlue">Dribble</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
